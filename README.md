@@ -1,4 +1,4 @@
-# ino_arduino
+# INOArduino
 
 A new Flutter project.
 
