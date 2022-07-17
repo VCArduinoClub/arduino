@@ -32,9 +32,6 @@ class Lesson4Page extends StatelessWidget {
           ContentText(
               "4. The Echo pin is the pin that goes high for a period of time which will be equal to the time that it takes for the wave to return to the sensor. This also connects to a digital pin on the Arduino board."),
           ContentText(
-              "Check out the example code below and type it out. The code reads distance from the ultrasonic sensor and displays it:"),
-          Image.asset(Routes.imagePrefix + "Lesson4UltraBasic.png"),
-          ContentText(
               "Advanced activity: Check the code below. It reads a distance from the ultrasonic sensor and displays it on the monitor. Try running it."),
           ContentText(
               "Your task is to design a game in which you are to get the ultrasonic sensor reading as close to a goal distance as possible. The goal distance must be randomly picked in a reasonable range, and you can use the reading distance code below as the base of your game."),
@@ -58,4 +55,3 @@ class Lesson4Page extends StatelessWidget {
     );
   }
 }
-
