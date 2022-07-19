@@ -47,7 +47,9 @@ class Lesson4Page extends StatelessWidget {
           ContentText("Provide the result and how far off the player was"),
           ContentText(
               "Start the next round (it is a loop so this should automatically happen)"),
-          ContentText("The Game (answer)"),
+          Header3Text(text: "Simple example for reading Ultrasonic data:"),
+          Image.asset(Routes.imagePrefix + "UltrasonicReadCode.png"),
+          Header3Text(text: "The Game (answer)"),
           Image.asset(Routes.imagePrefix + "UltrasonicPart1.jpg"),
           Image.asset(Routes.imagePrefix + "UltrasonicPart2.jpg"),
         ])

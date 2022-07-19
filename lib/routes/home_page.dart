@@ -19,7 +19,6 @@ class HomePage extends StatelessWidget {
         Text("Welcome to the INOArduino App! "
             "In this guide, we will teach you ALL the basics of the Arduino. "
             "The kit comes with everything you need to follow along with this guide and learn how to use an Arduino. "
-            "In case you do not have the kit yet, here is a link to purchase: google.com. "
             "If you want to follow along without buying the kit, here are the Arduino kit components: "),
         ComponentsGridView([
           Components.arduino,
